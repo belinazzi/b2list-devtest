@@ -7,4 +7,5 @@ import java.util.*
 @Repository
 interface UserRepository:JpaRepository<UserModel, Long> {
     fun findByUsername(username:String):Optional<UserModel>
+    fun findByCpf(cpf: Long):Optional<UserModel>
 }
