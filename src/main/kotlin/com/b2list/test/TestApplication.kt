@@ -5,7 +5,13 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication
 class TestApplication
-
-fun main(args: Array<String>) {
-	runApplication<TestApplication>(*args)
+{
+	companion object{
+		@JvmStatic
+		fun main(args: Array<String>) {
+			runApplication<TestApplication>(*args)
+		}
+	}
 }
+
+
