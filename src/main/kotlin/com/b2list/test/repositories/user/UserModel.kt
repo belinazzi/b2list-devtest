@@ -24,6 +24,6 @@ data class UserModel(
     @Column(name = "last_name", nullable = false, insertable = true, updatable = true, length = 100)
     var lastName: String,
 
-    @Column(name = "created_at", nullable = false)
+    @Column(name = "created_at", nullable = false, updatable = false)
     var creationDate:LocalDateTime = LocalDateTime.now()
 )
