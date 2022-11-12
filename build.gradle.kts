@@ -21,7 +21,6 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web:2.7.5")
 	implementation("br.com.colman.simplecpfvalidator:simple-cpf-validator:2.2.0")
-	implementation("org.json:json:20220924")
 	implementation("io.springfox:springfox-boot-starter:3.0.0")
 	implementation("mysql:mysql-connector-java:8.0.30")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
